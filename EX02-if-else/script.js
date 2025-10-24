@@ -1,3 +1,4 @@
+//VERIFICA SE O NÚMERO É POSITIVO OU NEGATIVO
 let num = 10
 if (num < 0) {
     //console.log('Número negativo!');
@@ -7,6 +8,7 @@ if (num < 0) {
     
 }
 
+//VERIFICA SE O NÚMERO ESTA ENTRE 10 E 50
 let numero = 15
 if (numero >= 10 && numero <= 50) {
    // console.log('Número aceito!');
@@ -16,6 +18,7 @@ if (numero >= 10 && numero <= 50) {
     
 }
 
+//VERIFICADOR DE FAIXA ETARIA 
 let idade = 'abc'
 if (isNaN(idade) || idade >= 200 || idade < 0) {
    // console.log('Inválido');
