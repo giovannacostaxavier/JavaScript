@@ -1,0 +1,23 @@
+.divs{
+    background-color: burlywood;
+    border: 2px,solid,black;
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;  
+}
+.destaque{
+    background-color: rgb(255, 149, 96);
+    border: 2px,solid,rgb(117, 77, 77);
+    border-radius: 5px;
+    margin: 10px;
+    width: 200px;
+    height: 50px;
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+
+}
