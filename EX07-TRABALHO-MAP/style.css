@@ -1,17 +1,52 @@
-.divs{
-    background-color: burlywood;
-    border: 2px,solid,black;
-    border-radius: 5px;
+*{
+    border: none;
+    margin: 0px;
+    padding:0px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+button{
+    width:150px;
+    height:40px;
+    border-radius:10px;
+    cursor: pointer;
+    background-color: #d8418a;
+    color: white;
+}
+
+.caixa{
+    border: 5px,solid,#7e425f;
+    background-color:#f9e3ee ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 500px;
+    width: 300px;
+
+}
+.cursos{
+    background-color: #f2bfd4;
+    border: 5px,solid,#d670a1;
+    border-radius: 7px;
     margin: 10px;
     width: 200px;
     height: 50px;
     display: flex;              
     justify-content: center;    
-    align-items: center;  
+    align-items: center; 
+    cursor: pointer; 
 }
-.destaque{
-    background-color: rgb(255, 149, 96);
-    border: 2px,solid,rgb(117, 77, 77);
+
+.selecionado{
+    background-color:#CFA3B8;
+    border: 2px,solid, #F6D6E3;
     border-radius: 5px;
     margin: 10px;
     width: 200px;

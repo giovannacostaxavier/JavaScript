@@ -1,14 +1,18 @@
-//const TodasDivs=[...document.querySelectorAll(".divs")]
-   // TodasDivs.map((el)=>{
-   //     el.addEventListener("click", () => {
-   //     el.classList.add("destaque");
-   // })
+const caixa1=document.querySelector("#caixa1")
+const caixa2=document.querySelector("#caixa2")
+const btn=document.querySelector(".btn")
+const cursos=[...document.querySelectorAll(".cursos")]
 
-   // })
-
-   const c1=document.getElementById("c1")
-    c1.addEventListener("click",()=>{
-        alert("Clicou!")
+cursos.forEach((el)=>{
+    el.addEventListener("click",(evt)=>{
+        const todosCursos= evt.target
+        todosCursos.classList.toggle("selecionado")
     })
-  
+})
 
+btn.addEventListener("click",()=>{
+    const cursoSelecionado=[...document.querySelectorAll(".selecionado")]
+    cursoSelecionado.forEach((el)=>{
+        caixa2.appendChild(el)
+    })
+})
