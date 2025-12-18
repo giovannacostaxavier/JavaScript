@@ -12,7 +12,11 @@ cursos.forEach((el)=>{
 
 btn.addEventListener("click",()=>{
     const cursoSelecionado=[...document.querySelectorAll(".selecionado")]
+    const cursoNaoSelecionado=[...document.querySelectorAll(".cursos:not(.selecionado)")]
     cursoSelecionado.forEach((el)=>{
         caixa2.appendChild(el)
+    })
+    cursoNaoSelecionado.forEach((el)=>{
+        caixa1.appendChild(el)
     })
 })
