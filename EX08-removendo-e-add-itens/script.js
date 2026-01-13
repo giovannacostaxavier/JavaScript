@@ -1,9 +1,7 @@
-const cursoSel= document.getElementById("cursoSelecionado")
-const todosRadios= [...document.querySelectorAll("input[type:radio]")]
+const cursoSel = document.getElementById("cursoSelecionado");
 
-
-cursoSel.addEventListener("click",(evt)=>{
-    let radioSel= cursoSel.filter((el)=>{
-        return el.checked
-    })
-})
+cursoSel.addEventListener("click", () => {
+    const radioSelecionado = document.querySelector('input[type="radio"]:checked');
+    const texto = radioSelecionado.previousElementSibling.textContent;
+    alert(texto);
+});
