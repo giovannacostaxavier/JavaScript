@@ -8,7 +8,7 @@ return document.querySelector('input[type="radio"]:checked');
 cursoSel.addEventListener("click", () => {
     const radioSelecionado=funcaoBTN()
     //if(!radioSelecionado){
-    //    alert("Não existem cursos selecionados, por favor selecione um curso")
+    //    alert("Não existem cursos selecionados , por favor selecione um curso")
     //    return
     //}  
     try{const texto = radioSelecionado.previousElementSibling.textContent;
