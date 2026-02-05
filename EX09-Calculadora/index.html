@@ -7,19 +7,34 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div id="container">
-    <div>
-        <input type="text" name="t1" id="t1">
-        <input type="text" name="t2" id="t2">
-    </div>
-    
-        
-        <div>
-            <button>+</button>
-            <button>-</button>
-            <button>*</button>
-            <button>/</button>
+        <div id="calc">
+
+            <div class="campo">
+                <label for="t1">Valor 1</label>
+                <input type="text" id="t1">
+            </div>
+
+            <div class="campo">
+                <label for="t2">Valor 2</label>
+                <input type="text" id="t2">
+            </div>
+
+            <div class="campo">
+                <label for="resultado">Resultado</label>
+                <input type="text" id="resultado" disabled>
+            </div>
+
+            <div id="botoes">
+                <button id="btnSoma">+</button>
+                <button id="btnSubtracao">-</button>
+                <button id="btnMultiplicacao">*</button>
+                <button id="btnDivisao">/</button>
+            </div>
+
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
