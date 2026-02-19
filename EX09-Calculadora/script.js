@@ -3,30 +3,24 @@ let btnSubtracao=document.querySelector("#btnSubtracao")
 let btnMultiplicacao=document.querySelector("#btnMultiplicacao")
 let btnDivisao=document.querySelector("#btnDivisao")
 let resultado=document.querySelector("#resultado")
+let valor1=document.querySelector("#t1")
+let valor2=document.querySelector("#t2")
 
 const op = [
-    ()=>{
-        let valor1=document.querySelector("#t1").value
-        let valor2=document.querySelector("#t2").value
-        resultado.value=Number(valor1)+Number(valor2)
+    ()=>{  
+        resultado.value=Number(valor1.value)+Number(valor2.value)
     },
 
     ()=>{
-        let valor1=document.querySelector("#t1").value
-        let valor2=document.querySelector("#t2").value
-        resultado.value=Number(valor1)-Number(valor2)
+        resultado.value=Number(valor1.value)-Number(valor2.value)
     },
 
     ()=>{
-        let valor1=document.querySelector("#t1").value
-        let valor2=document.querySelector("#t2").value
-        resultado.value=Number(valor1)*Number(valor2)
+        resultado.value=Number(valor1.value)*Number(valor2.value)
     },
 
     ()=>{
-        let valor1=document.querySelector("#t1").value
-        let valor2=document.querySelector("#t2").value
-        resultado.value=Number(valor1)/Number(valor2)
+        resultado.value=Number(valor1.value)/Number(valor2.value)
     }
 ]
     btnSoma.addEventListener('click',op[0])
