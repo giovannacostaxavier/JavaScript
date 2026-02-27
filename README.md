@@ -24,7 +24,7 @@ Cada pasta contém seus arquivos `.js` e, quando necessário, arquivos `.html` p
 
 ## 🛠 Tecnologias
 
-- JavaScript (puro, sem frameworks ou bibliotecas)  
+- JavaScript  
 - Execução via Node.js  
 - Navegador para exercícios com DOM  
 
