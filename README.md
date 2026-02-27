@@ -1,4 +1,4 @@
-# Exercícios de JavaScript 
+## Exercícios de JavaScript 
 
 Este repositório reúne meus **exercícios de JavaScript**, feitos ao longo do meu curso online da linguagem.  
 A ideia aqui é **praticar bastante e fixar os conceitos**, errar, ajustar, testar de novo e evoluir na prática.
