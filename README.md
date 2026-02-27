@@ -37,3 +37,14 @@ Cada pasta contém seus arquivos `.js` e, quando necessário, arquivos `.html` p
 
 ```bash
 node nomeDoArquivo.js
+```
+### 🔹 Pelo navegador (quando tiver DOM)
+
+1. Abra o arquivo `.html` no navegador.  
+2. Se precisar, use o console (F12 → aba Console) para ver os resultados.
+
+## 📝 Observações
+
+- Esse repositório é focado em **estudo e prática**.  
+- Os exercícios seguem a ordem em que fui aprendendo os conteúdos.  
+- Aqui dá pra acompanhar minha evolução na linguagem, desde a base até aplicações mais práticas.
